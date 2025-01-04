@@ -39,7 +39,7 @@ class NavComponent extends HTMLElement {
       </div>
 
       <!-- Logo Section -->
-      <div class="text-3xl md:text-4xl">
+      <div class="text-3xl md:text-4xl" onclick="window.location.href='../home/homes.html'">
         <img src="/img/logo_FH.png" alt="FH" class="h-8 inline-block mr-2" />
         Fashion Hub
       </div>
