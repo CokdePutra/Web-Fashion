@@ -31,6 +31,12 @@ class NavComponent extends HTMLElement {
           class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 w-full"
           >Aksesoris</a
         >
+        <button class="p-2 rounded-full hover:bg-gray-100" onclick="window.location.href='../user/profile.html'">
+          <img src="/img/icon/profile.png" alt="Account" class="h-6" />
+        </button>
+        <button class="p-2 rounded-full hover:bg-gray-100" onclick="window.location.href='../cart/cart.html'">
+          <img src="/img/icon/cart.png" alt="Cart" class="h-6" />
+        </button>
       </div>
       <!-- Links Section -->
       <div class="flex items-center space-x-4 hidden md:block">
